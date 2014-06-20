@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B27610195454BD00543C5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B2760F195454BD00543C5F /* Cocoa.framework */; };
+		00B27612195454BD00543C5F /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B27611195454BD00543C5F /* ScreenSaver.framework */; };
+		00B2761C195454BD00543C5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B2761A195454BD00543C5F /* InfoPlist.strings */; };
+		00B27620195454BD00543C5F /* Hex_Clock_ScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2761F195454BD00543C5F /* Hex_Clock_ScreensaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B2760C195454BD00543C5F /* Hex Clock Screensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hex Clock Screensaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B2760F195454BD00543C5F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		00B27611195454BD00543C5F /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		00B27614195454BD00543C5F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		00B27615195454BD00543C5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00B27616195454BD00543C5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00B27619195454BD00543C5F /* Hex Clock Screensaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hex Clock Screensaver-Info.plist"; sourceTree = "<group>"; };
+		00B2761B195454BD00543C5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00B2761D195454BD00543C5F /* Hex Clock Screensaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hex Clock Screensaver-Prefix.pch"; sourceTree = "<group>"; };
+		00B2761E195454BD00543C5F /* Hex_Clock_ScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hex_Clock_ScreensaverView.h; sourceTree = "<group>"; };
+		00B2761F195454BD00543C5F /* Hex_Clock_ScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hex_Clock_ScreensaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B27607195454BD00543C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B27612195454BD00543C5F /* ScreenSaver.framework in Frameworks */,
+				00B27610195454BD00543C5F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B27601195454BD00543C5F = {
+			isa = PBXGroup;
+			children = (
+				00B27617195454BD00543C5F /* Hex Clock Screensaver */,
+				00B2760E195454BD00543C5F /* Frameworks */,
+				00B2760D195454BD00543C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00B2760D195454BD00543C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B2760C195454BD00543C5F /* Hex Clock Screensaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B2760E195454BD00543C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B2760F195454BD00543C5F /* Cocoa.framework */,
+				00B27611195454BD00543C5F /* ScreenSaver.framework */,
+				00B27613195454BD00543C5F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00B27613195454BD00543C5F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B27614195454BD00543C5F /* AppKit.framework */,
+				00B27615195454BD00543C5F /* CoreData.framework */,
+				00B27616195454BD00543C5F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		00B27617195454BD00543C5F /* Hex Clock Screensaver */ = {
+			isa = PBXGroup;
+			children = (
+				00B2761E195454BD00543C5F /* Hex_Clock_ScreensaverView.h */,
+				00B2761F195454BD00543C5F /* Hex_Clock_ScreensaverView.m */,
+				00B27618195454BD00543C5F /* Supporting Files */,
+			);
+			path = "Hex Clock Screensaver";
+			sourceTree = "<group>";
+		};
+		00B27618195454BD00543C5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B27619195454BD00543C5F /* Hex Clock Screensaver-Info.plist */,
+				00B2761A195454BD00543C5F /* InfoPlist.strings */,
+				00B2761D195454BD00543C5F /* Hex Clock Screensaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00B27608195454BD00543C5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B2760B195454BD00543C5F /* Hex Clock Screensaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B27623195454BD00543C5F /* Build configuration list for PBXNativeTarget "Hex Clock Screensaver" */;
+			buildPhases = (
+				00B27606195454BD00543C5F /* Sources */,
+				00B27607195454BD00543C5F /* Frameworks */,
+				00B27608195454BD00543C5F /* Headers */,
+				00B27609195454BD00543C5F /* Resources */,
+				00B2760A195454BD00543C5F /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hex Clock Screensaver";
+			productName = "Hex Clock Screensaver";
+			productReference = 00B2760C195454BD00543C5F /* Hex Clock Screensaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B27602195454BD00543C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Takeru Chuganji";
+			};
+			buildConfigurationList = 00B27605195454BD00543C5F /* Build configuration list for PBXProject "Hex Clock Screensaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00B27601195454BD00543C5F;
+			productRefGroup = 00B2760D195454BD00543C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B2760B195454BD00543C5F /* Hex Clock Screensaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B27609195454BD00543C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B2761C195454BD00543C5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		00B2760A195454BD00543C5F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B27606195454BD00543C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B27620195454BD00543C5F /* Hex_Clock_ScreensaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00B2761A195454BD00543C5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B2761B195454BD00543C5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B27621195454BD00543C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00B27622195454BD00543C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00B27624195454BD00543C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hex Clock Screensaver/Hex Clock Screensaver-Prefix.pch";
+				INFOPLIST_FILE = "Hex Clock Screensaver/Hex Clock Screensaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		00B27625195454BD00543C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hex Clock Screensaver/Hex Clock Screensaver-Prefix.pch";
+				INFOPLIST_FILE = "Hex Clock Screensaver/Hex Clock Screensaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B27605195454BD00543C5F /* Build configuration list for PBXProject "Hex Clock Screensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B27621195454BD00543C5F /* Debug */,
+				00B27622195454BD00543C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B27623195454BD00543C5F /* Build configuration list for PBXNativeTarget "Hex Clock Screensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B27624195454BD00543C5F /* Debug */,
+				00B27625195454BD00543C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B27602195454BD00543C5F /* Project object */;
+}
