@@ -15,8 +15,7 @@
 
 @implementation Hex_Clock_ScreensaverView
 
-- (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
-{
+- (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
         self.wantsLayer = YES;
@@ -24,7 +23,7 @@
         layer.frame = self.bounds;
         layer.backgroundColor = [NSColor blackColor].CGColor;
         self.layer = layer;
-        
+
         WebView *webView = [[WebView alloc] initWithFrame:self.bounds];
         webView.wantsLayer = YES;
         webView.frameLoadDelegate = self;
@@ -36,38 +35,31 @@
     return self;
 }
 
-- (void)startAnimation
-{
+- (void)startAnimation {
     [super startAnimation];
 }
 
-- (void)stopAnimation
-{
+- (void)stopAnimation {
     [super stopAnimation];
 }
 
-- (void)drawRect:(NSRect)rect
-{
+- (void)drawRect:(NSRect)rect {
     [super drawRect:rect];
 }
 
-- (void)animateOneFrame
-{
+- (void)animateOneFrame {
     return;
 }
 
-- (BOOL)hasConfigureSheet
-{
+- (BOOL)hasConfigureSheet {
     return NO;
 }
 
-- (NSWindow*)configureSheet
-{
+- (NSWindow *)configureSheet {
     return nil;
 }
 
-- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame
-{
+- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
     if (frame == self.webView.mainFrame) {
         self.webView.animator.alphaValue = 1;
     }
